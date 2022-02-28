@@ -1,12 +1,21 @@
 # useDebounce
 
-A hook for debouncing.
+A hook to debounce value change. This can be used to perform an expensive operation based on react state, props or any calculated value.
 
-## Examples
+### Usage example
+
+```typescript
+const [query, setQuery] = useState('');
+const debouncedQuery = useDebounce(query, delayInMilliseconds);
+```
+
+### Playground
+
+The `debouncedQuery` value will be updated after `delayInMilliseconds` after the last change and it can be used to perform a search operation instead of querying the api every time the user types a character.
 
 ```jsx live
 function DebounceExample(props) {
-  const delayInMilliseconds = 1000;
+  const delayInMilliseconds = 1000; // put outside of component
   const [query, setQuery] = React.useState('');
   const debouncedQuery = useDebounce(query, delayInMilliseconds);
 
@@ -30,16 +39,33 @@ function DebounceExample(props) {
 }
 ```
 
-## API
+### API
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+<TabItem value="js" label="JavaScript">
 
 ```typescript
-const debouncedValue = useDebounce(
-  value: any,
+const debouncedValue = useDebounce(value, delay);
+```
+
+</TabItem>
+<TabItem value="ts" label="Typescript">
+
+```typescript
+const debouncedValue: T = useDebounce<T>(
+  value: T,
   delay?: number
 );
 ```
 
-### Params
+</TabItem>
+
+</Tabs>
+
+#### Params
 
 | Property | Description                | Type     | Default |
 | -------- | -------------------------- | -------- | ------- |

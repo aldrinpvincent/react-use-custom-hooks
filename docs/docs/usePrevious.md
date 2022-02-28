@@ -2,14 +2,14 @@
 
 If you want to access the previous props or state in functional components, you can use the `usePrevious` hook. This hook would work for props, state, or any other calculated value.
 
-## Usage
+### Usage example
 
 ```typescript
 const [value, setvalue] = useState(initialState);
 const previousValue = usePrevious(value);
 ```
 
-## Examples
+### Playground
 
 ```jsx live
 function PreviousStateExample(props) {
@@ -32,7 +32,7 @@ function PreviousStateExample(props) {
 }
 ```
 
-## API
+### API
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -55,7 +55,7 @@ const previousState: T = usePrevious<T>(state: T);
 
 </Tabs>
 
-### Params
+#### Params
 
 | Property | Description                                       | Type  | Default |
 | -------- | ------------------------------------------------- | ----- | ------- |
