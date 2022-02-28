@@ -1,0 +1,8 @@
+node_modules
+docs/node_modules
+docs/.docusaurus
+docs/build
+docs/src/hooks
+dist
+example
+test
