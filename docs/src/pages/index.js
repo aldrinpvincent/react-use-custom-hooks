@@ -4,19 +4,19 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
-import HomepageFeatures from '../components/HomepageFeatures';
+import HookDetails from '../components/HookDetails';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx(styles.heroBanner)}>
       <div className="container">
-        <h1>{siteConfig.title}</h1>
+        <h1>{` <REACT USE CUSTOM HOOKS />`}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--lg"
-            to="/docs/hooks"
+            to="/docs/useDebounce"
           >
             View Hooks
           </Link>
@@ -30,12 +30,12 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`${siteConfig.title}`}
+      description="Collection of React Custom Hooks in Typescript"
     >
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <HookDetails />
       </main>
     </Layout>
   );

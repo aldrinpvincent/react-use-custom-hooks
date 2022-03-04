@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef } from 'react';
 
-export function useIsMounted() {
+export function useIsMounted(): () => Boolean {
   const mountedRef = useRef(false);
   const isMounted = useCallback(() => mountedRef.current, []);
 

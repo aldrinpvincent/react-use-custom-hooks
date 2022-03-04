@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'react use custom hooks',
-  tagline: 'a collection of react custom hooks',
+  title: 'React use custom hooks',
+  tagline: 'Collection of React Custom Hooks',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -54,7 +54,7 @@ const config = {
         // title: 'Hooks studio',
         logo: {
           alt: 'Hooks studio logo',
-          src: 'img/logo.png',
+          src: 'img/h2.svg',
         },
         items: [
           // {
@@ -73,15 +73,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Custom hooks',
-                to: '/docs/hooks',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Custom hooks',
+          //       to: '/docs/hooks',
+          //     },
+          //   ],
+          // },
           // {
           //   title: 'Community',
           //   items: [

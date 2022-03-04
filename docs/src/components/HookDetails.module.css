@@ -1,20 +1,25 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
   width: 100%;
 }
 
-.spread{
+.spread {
   display: flex;
   justify-content: space-around;
 }
 
-.feature_item{
+.feature_item {
   margin: 0 10px;
   list-style: none;
-  box-shadow: 0.25rem 0.25rem 0.6rem rgb(0 0 0 / 5%), 0 0.5rem 1.125rem rgb(75 0 0 / 5%);
-  padding: .5rem 1rem;
+  box-shadow: 0.25rem 0.25rem 0.6rem rgb(0 0 0 / 5%),
+    0 0.5rem 1.125rem rgb(75 0 0 / 5%);
+  padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   /* width: 300px; */
+}
+
+.red {
+  color: #4caf50;
 }

@@ -2,6 +2,8 @@
 
 If you want to access the previous props or state in functional components, you can use the `usePrevious` hook. This hook would work for props, state, or any other calculated value.
 
+<pre>{`import {usePrevious} from 'react-use-custom-hooks';`}</pre>
+
 ### Usage example
 
 ```typescript
@@ -18,14 +20,16 @@ function PreviousStateExample(props) {
 
   return (
     <div>
-      Current value: <b>{count}</b>, Previous value: <b>{prevCount}</b>
+      Current value: <b>{count}</b>
       <br />
-      <button onClick={() => setCount(count + 1)}>+ count</button>
+      Previous value: <b>{prevCount}</b>
+      <br />
+      <button onClick={() => setCount(count + 1)}>++ count</button>
       <button
         style={{ marginLeft: '10px' }}
         onClick={() => setCount(count - 1)}
       >
-        - count
+        -- count
       </button>
     </div>
   );
@@ -34,26 +38,9 @@ function PreviousStateExample(props) {
 
 ### API
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs>
-<TabItem value="js" label="JavaScript">
-
-```js
-const previousState = usePrevious(state);
-```
-
-</TabItem>
-<TabItem value="ts" label="Typescript">
-
 ```typescript
-const previousState: T = usePrevious<T>(state: T);
+function usePrevious<T>(value: T): T | undefined;
 ```
-
-</TabItem>
-
-</Tabs>
 
 #### Params
 

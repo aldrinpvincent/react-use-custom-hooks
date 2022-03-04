@@ -1,6 +1,8 @@
 # useDebounce
 
-A hook to debounce value change. This can be used to perform an expensive operation based on react state, props or any calculated value.
+A hook to debounce value changes. This can be used to perform an expensive operation based on react state, props or any calculated value.
+
+<pre>{`import {useDebounce} from 'react-use-custom-hooks';`}</pre>
 
 ### Usage example
 
@@ -41,29 +43,9 @@ function DebounceExample(props) {
 
 ### API
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs>
-<TabItem value="js" label="JavaScript">
-
 ```typescript
-const debouncedValue = useDebounce(value, delay);
+function useDebounce<T>(value: T, delay?: number = 500);
 ```
-
-</TabItem>
-<TabItem value="ts" label="Typescript">
-
-```typescript
-const debouncedValue: T = useDebounce<T>(
-  value: T,
-  delay?: number
-);
-```
-
-</TabItem>
-
-</Tabs>
 
 #### Params
 
