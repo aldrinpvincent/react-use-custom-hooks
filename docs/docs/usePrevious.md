@@ -7,7 +7,7 @@ If you want to access the previous props or state in functional components, you 
 ### Usage example
 
 ```typescript
-const [value, setvalue] = useState(initialState);
+const [value, setValue] = useState(initialState);
 const previousValue = usePrevious(value);
 ```
 

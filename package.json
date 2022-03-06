@@ -14,6 +14,7 @@
     "type": "git",
     "url": "https://github.com/aldrinpvincent/react-use-custom-hooks"
   },
+  "homepage": "https://react-use-custom-hooks.vercel.app/",
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
@@ -40,7 +41,7 @@
   "name": "react-use-custom-hooks",
   "author": "aldrinpvincent",
   "module": "dist/react-custom-hooks.esm.js",
-  "description": "A collection of react custom hooks in typescript",
+  "description": "A utility to cache api calls in JavaScript by memoizing promises",
   "size-limit": [
     {
       "path": "dist/react-custom-hooks.cjs.production.min.js",

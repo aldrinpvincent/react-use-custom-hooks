@@ -1,6 +1,6 @@
 # react-use-custom-hooks
 
-A collection of react custom hooks
+A collection of react custom hooks in typescript
 
 # Installation
 
@@ -15,9 +15,6 @@ yarn add react-use-custom-hooks
 import { useSafeState } from 'react-use-custom-hooks';
 ```
 
-# Hooks list
+# Demo
 
-1. useDebounce
-2. useSafeState
-3. useIsMounted
-4. usePrevious
+https://react-use-custom-hooks.vercel.app/
