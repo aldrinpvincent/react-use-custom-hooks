@@ -51,10 +51,10 @@ const config = {
         playgroundPosition: 'bottom',
       },
       navbar: {
-        // title: 'Hooks studio',
+        title: 'React Use Custom Hooks',
         logo: {
-          alt: 'Hooks studio logo',
-          src: 'img/h2.svg',
+          alt: 'Home page of react use custom hooks',
+          src: 'img/logo.png',
         },
         items: [
           // {

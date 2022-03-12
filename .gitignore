@@ -3,6 +3,7 @@ docs/node_modules
 docs/.docusaurus
 docs/build
 docs/src/hooks
+docs/blog
 dist
 example
 test

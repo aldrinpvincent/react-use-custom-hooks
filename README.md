@@ -12,9 +12,9 @@ yarn add react-use-custom-hooks
 # Usage
 
 ```ts
-import { useSafeState } from 'react-use-custom-hooks';
+import { useDebounce } from 'react-use-custom-hooks';
 ```
 
-# Demo
+# Documentation and demo
 
 https://react-use-custom-hooks.vercel.app/

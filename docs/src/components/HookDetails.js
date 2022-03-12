@@ -18,7 +18,7 @@ export default function HookDetails() {
           Usage
         </h3>
         <pre>
-          {`import {useSafeState} from 'react-use-custom-hooks';`}
+          {`import {useDebounce} from 'react-use-custom-hooks';`}
         </pre>
       </div>
     </section>

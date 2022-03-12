@@ -1,5 +1,13 @@
 # useSafeState
 
+:::caution This hook will be deprecated soon
+
+The warning from react when you set state on unmounted component will be removed from React 18 onwards since there is no actual memory leak in case of promises and the warning is misleading in those scenarios. Also future version of react offer a feature that lets you preserve DOM and state even when the component is not visible, but disconnect its effects. That might not work will with the implementation of this hook.
+
+See detailed discussion here - https://github.com/reactwg/react-18/discussions/82
+
+:::
+
 A memory safe version of react's `useState` hook. In react, on way memory leak occurs when `setState` operation performed on an unmounted component and it happens mostly with asynchronous operation like AJAX calls.
 
 For example, if the user initiated an AJAX call and navigated away from tha page before the call is returned, the component will get unmounted and when the api call is fulfilled, the `setState` will be performed on the unmounted component causing a memory leak.
