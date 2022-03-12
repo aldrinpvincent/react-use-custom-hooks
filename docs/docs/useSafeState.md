@@ -16,7 +16,7 @@ For small applications, leaking memory might not be a big issue since there is n
 
 This hook will prevent these kind of memory leaks by checking whether the component is mounted before `setState` operation, if the component is unmounted, it will just ignore the `setState` call. The API is same as react's `useState` hook, so you can use this hook instead of `useState` for asynchronous operation to avoid any memory leak.
 
-<pre>{`import {useSafeState} from 'react-use-custom-hooks';`}</pre>
+<pre>{`import { useSafeState } from 'react-use-custom-hooks';`}</pre>
 
 ### Usage example
 

@@ -2,7 +2,7 @@
 
 This hook is used to check whether the component is mounted or not. This hook will return a function which will return a boolean value stating the component is mounted or not on calling. This will be useful if you want to perform some operation based on component is mounted or not like stop polling an api, update state etc.
 
-<pre>{`import {useIsMounted} from 'react-use-custom-hooks';`}</pre>
+<pre>{`import { useIsMounted } from 'react-use-custom-hooks';`}</pre>
 
 ### Usage example
 

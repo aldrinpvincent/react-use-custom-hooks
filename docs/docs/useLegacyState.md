@@ -2,7 +2,7 @@
 
 This hook works similar to `this.setState` works in react class components. Here when you call `setState`, it shallow merges state partial into current state. It will be useful when you want change a class component to functional component.
 
-<pre>{`import {useLegacyState} from 'react-use-custom-hooks';`}</pre>
+<pre>{`import { useLegacyState } from 'react-use-custom-hooks';`}</pre>
 
 ### Usage example
 

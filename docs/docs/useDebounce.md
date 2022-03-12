@@ -2,7 +2,7 @@
 
 A hook to debounce value changes. This can be used to perform an expensive operation based on react state, props or any calculated value.
 
-<pre>{`import {useDebounce} from 'react-use-custom-hooks';`}</pre>
+<pre>{`import { useDebounce } from 'react-use-custom-hooks';`}</pre>
 
 ### Usage example
 

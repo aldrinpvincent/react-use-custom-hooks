@@ -2,7 +2,7 @@
 
 A hook to manage title value of document.
 
-<pre>{`import {useTitle} from 'react-use-custom-hooks';`}</pre>
+<pre>{`import { useTitle } from 'react-use-custom-hooks';`}</pre>
 
 ### Usage example
 

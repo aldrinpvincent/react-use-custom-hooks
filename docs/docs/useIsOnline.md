@@ -2,7 +2,7 @@
 
 A hook for detecting network status of the user. This hook will return a boolean value indicating whether the user is online or not. The value will be automatically updated when the user's network status changes.
 
-<pre>{`import {useIsOnline} from 'react-use-custom-hooks';`}</pre>
+<pre>{`import { useIsOnline } from 'react-use-custom-hooks';`}</pre>
 
 :::caution
 The hook works based on value of `navigator.onLine` property, so this hook returns `true` does not always mean the user connected to the internet, it can also just a connection to some network.

@@ -2,7 +2,7 @@
 
 If you want to access the previous props or state in functional components, you can use the `usePrevious` hook. This hook would work for props, state, or any other calculated value.
 
-<pre>{`import {usePrevious} from 'react-use-custom-hooks';`}</pre>
+<pre>{`import { usePrevious } from 'react-use-custom-hooks';`}</pre>
 
 ### Usage example
 
