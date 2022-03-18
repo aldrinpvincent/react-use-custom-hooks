@@ -5,6 +5,7 @@ import { usePrevious } from './usePrevious';
 import { useLegacyState } from './useLegacyState';
 import { useTitle } from './useTitle';
 import { useIsOnline } from './useIsOnline';
+import { useIdle } from './useIdle';
 
 export {
   useDebounce,
@@ -14,4 +15,5 @@ export {
   useLegacyState,
   useTitle,
   useIsOnline,
+  useIdle,
 };
