@@ -37,10 +37,7 @@ interface Options {
   restoreOnUnmount?: boolean;
 }
 
-export function useTitle(
-  title: string,
-  options: Options = DEFAULT_OPTIONS
-): void;
+export function useTitle(title: string, options: Options): void;
 ```
 
 #### Options

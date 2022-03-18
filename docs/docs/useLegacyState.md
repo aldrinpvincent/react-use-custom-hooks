@@ -4,6 +4,10 @@ This hook works similar to `this.setState` works in react class components. Here
 
 <pre>{`import { useLegacyState } from 'react-use-custom-hooks';`}</pre>
 
+:::caution
+The hook does not support callback in initialization or in update.
+:::
+
 ### Usage example
 
 ```typescript
