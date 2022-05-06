@@ -6,6 +6,8 @@ import { useLegacyState } from './useLegacyState';
 import { useTitle } from './useTitle';
 import { useIsOnline } from './useIsOnline';
 import { useIdle } from './useIdle';
+import { useAsync } from './useAsync';
+import { useForm } from './useForm';
 
 export {
   useDebounce,
@@ -16,4 +18,6 @@ export {
   useTitle,
   useIsOnline,
   useIdle,
+  useAsync,
+  useForm,
 };
