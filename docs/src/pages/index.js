@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--lg"
-            to="/docs/useDebounce"
+            to="/docs/useAsync"
           >
             View Hooks
           </Link>
