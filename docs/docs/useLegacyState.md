@@ -44,7 +44,7 @@ function LegacyStateExample(props) {
 ### API
 
 ```typescript
-function useSetState<T extends Record<string, any>>(
+function useLegacyState<T extends Record<string, any>>(
   initialState: T
 ): readonly [
   T,
