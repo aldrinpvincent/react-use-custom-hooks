@@ -79,7 +79,7 @@ Only the most recent promise is considered in this hook, For example, in the abo
 ### API
 
 ```typescript
-function useAsync(fn: () => Prm, options?: Options, deps = []);
+function useAsync(fn: () => Promise<>, options?: Options, deps = []);
 ```
 
 #### Options
