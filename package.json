@@ -41,7 +41,7 @@
   "name": "react-use-custom-hooks",
   "author": "aldrinpvincent",
   "module": "dist/react-custom-hooks.esm.js",
-  "description": "A utility to cache api calls in JavaScript by memoizing promises",
+  "description": "A collection of react custom hooks in typescript",
   "size-limit": [
     {
       "path": "dist/react-custom-hooks.cjs.production.min.js",
